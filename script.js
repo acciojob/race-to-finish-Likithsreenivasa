@@ -1,4 +1,4 @@
-// window.promises = [];
+window.promises = [];
 // Function to create a promise that resolves after a random time between 1 and 5 seconds
 function getRandomPromise() {
   const randomTime = Math.floor(Math.random() * 5000) + 1000; // Random time between 1 and 5 seconds
